@@ -1,13 +1,16 @@
-var input=document.querySelector("#submitbtn")
+var input=document.querySelector("#submitbtn");
+var txtinputs=document.querySelector("#txtareas");
+var outputdiv=document.querySelector("#output");
 
-var txtinputs=document.querySelector("#txtareas")
 
 
 function eventhandler(){
     // console.log("you have been clicked")
     var txtinput=txtinputs.value;
-    console.log("clicked ",txtinput)
+    // console.log("clicked ",txtinput)
+    outputdiv.innerText="translated"+txtinput;
     
+
 
 
 }
